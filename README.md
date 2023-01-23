@@ -112,7 +112,7 @@
   
   Train-Test splitting was done with 80% train, 20% test.
   
-  The model with the best accuracy to predict the churn rate was the Bagging Classifier with 88.98% accuracy. The same model also presented the best percentage for all the other metrics analysed. Including a F1-Score of 89.34% and ROC AUC Score of 89.12%.
+  The model with the best accuracy to predict the churn rate was the Bagging Classifier with 88.98% accuracy. The same model also presented the best percentage of F1-Score with 89.34% and ROC AUC Score with 89.12%. The main goal in a churn analysis is to identify employees/customers that indeed left the company (True positives in the confusion matrix), so it's also relevant to check the model with the best precision, which was also the Bagging Model with 84.54%.
   
   The second best was the Gradient Boosting Classifier with an accuracy of 86.41% while the worst model trained was the Logistical Regression with only 77.34%.
   
