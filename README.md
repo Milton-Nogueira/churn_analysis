@@ -105,11 +105,11 @@
 
 * ### Machine Learning
   
-  In this project was tested the following models of classification - Logistical Regression, Gradient Boosting, Bagging Classifier and Random Forest.
+  In this project we tested the following models of classification - Logistical Regression, Gradient Boosting, Bagging Classifier and Random Forest.
   
   Variables that wouldn't provide any meaningul information for this specific analysis, as surname and customer ID were dropped. Some of the variables with very low correlation were also dropped, such as the presence of credit card, credit score, estimated salary and geography (spain).
   
-  The response variable - Exited - was imbalanced, so we used the Imbalanced-learn library to provide the necessary tools to handle the issue.
+  The response variable (Exited) was imbalanced, so we used the 'Imbalanced-learn' library to provide the necessary tools to handle the issue.
   
   Train-Test splitting was done with 80% train, 20% test.
   
