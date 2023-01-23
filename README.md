@@ -116,6 +116,9 @@
   
   The second best was the Gradient Boosting Classifier with an accuracy of 86.41% while the worst model trained was the Logistical Regression with only 77.34%.
   
+  ![Table of metrics](https://user-images.githubusercontent.com/121902546/214093969-4bc2bd94-86d5-4eff-8603-e029468a9399.png)
+
+  
   Below we can see the confusion matrix generated for the Bagging model.
   
 ![cm-bagging](https://user-images.githubusercontent.com/121902546/214082553-badf662f-1729-4933-91c1-00b8edafee02.png)
