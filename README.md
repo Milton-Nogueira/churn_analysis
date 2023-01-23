@@ -3,6 +3,7 @@
   This analysis used data of employees of a bank to predict whether a employee will stay in the company or not.
   
   The dataset can be found on [Kaggle](https://www.kaggle.com/datasets/shubh0799/churn-modelling).
+
   
 ## Data Dictionary
 
@@ -127,4 +128,7 @@
   
 ![roc curves comparison](https://user-images.githubusercontent.com/121902546/214082558-4bf65b93-bafc-42c6-8e62-310f62dc9e5a.png)
 
+    
+  To check the commented code click [here](Churn_Analysis_ML.ipynb).
+  
   
