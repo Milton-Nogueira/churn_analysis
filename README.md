@@ -103,4 +103,7 @@
 
 ![Correlation with dummies](https://user-images.githubusercontent.com/121902546/213945348-02aa2fd0-b11e-41d6-8c73-b08ecd27b88a.png)
 
+![cm-bagging](https://user-images.githubusercontent.com/121902546/214082553-badf662f-1729-4933-91c1-00b8edafee02.png)
+
+![roc curves comparison](https://user-images.githubusercontent.com/121902546/214082558-4bf65b93-bafc-42c6-8e62-310f62dc9e5a.png)
 
