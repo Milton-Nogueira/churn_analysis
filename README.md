@@ -100,10 +100,28 @@
   
   We can see that although all the correlations are weak, the most meaningful ones are: age, balance, both genders, activity and geography (France and Germany).
 
-
 ![Correlation with dummies](https://user-images.githubusercontent.com/121902546/213945348-02aa2fd0-b11e-41d6-8c73-b08ecd27b88a.png)
 
+* ### Machine Learning
+  
+  In this project was tested the following models of classification - Logistical Regression, Gradient Boosting, Bagging Classifier and Random Forest.
+  
+  Variables that wouldn't provide any meaningul information for this specific analysis, as surname and customer ID were dropped. Some of the variables with very low correlation were also dropped, such as the presence of credit card, credit score, estimated salary and geography (spain).
+  
+  The response variable - Exited - was imbalanced, so we used the Imbalanced-learn library to provide the necessary tools to handle the issue.
+  
+  Train-Test splitting was done with 80% train, 20% test.
+  
+  The model with the best accuracy to predict the churn rate was the Bagging Classifier with 88.98% accuracy. The same model also presented the best percentage for all the other metrics analysed. Including a F1-Score of 89.34% and ROC AUC Score of 89.12%.
+  
+  The second best was the Gradient Boosting Classifier with an accuracy of 86.41% while the worst model trained was the Logistical Regression with only 77.34%.
+  
+  Below we can see the confusion matrix generated for the Bagging model.
+  
 ![cm-bagging](https://user-images.githubusercontent.com/121902546/214082553-badf662f-1729-4933-91c1-00b8edafee02.png)
 
+  We can also check a comparison between the ROC Curves for the models in this analysis.
+  
 ![roc curves comparison](https://user-images.githubusercontent.com/121902546/214082558-4bf65b93-bafc-42c6-8e62-310f62dc9e5a.png)
 
+  
