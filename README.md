@@ -29,14 +29,14 @@
 
 * ### Churn numbers
 
-  In this dataset we have 10000 custumers, of which 7963 are still in the company and 2037 have left.
+  In this dataset we have 10000 custumers, of which 7963 are still in the company and 2037 have left. Although most customers didn't exit the company, we still have a considerable churn rate.
   
 ![churn numbers](https://user-images.githubusercontent.com/121902546/213935392-b978c7d7-5403-4fdc-ab97-f15ceffd0e2c.png)
 
 
 * ### Churn by age range
 
-  We can see most of the loyal custumers in the range of 30-40 years, in the meantime the highest churn rate is found in the range of 40-50 years.
+  People with 40-50 years are more likely to leave the company.
 
 ![age x churn](https://user-images.githubusercontent.com/121902546/213935452-01138f0a-9f1d-469b-b032-f110f18d6437.png)
 
